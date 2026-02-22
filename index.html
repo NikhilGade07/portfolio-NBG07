@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Gade | Portfolio</title>
+    <!-- Modern Google Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 1. Header + Navigation -->
+    <header class="header" id="header">
+        <div class="logo">Nikhil Gade</div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero section reveal">
+        <div class="hero-content">
+            <h2 class="greeting">Hello, I'm Nikhil Gade</h2>
+            <h1 class="headline"><span class="typing-text"></span><span class="cursor">&nbsp;</span></h1>
+            <p class="sub-headline">B.Tech Student | Java & Python Learner | Web Development Beginner</p>
+            <a href="#projects" class="btn primary-btn">View Projects</a>
+        </div>
+        <!-- Futuristic background elements -->
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </section>
+
+    <!-- 3. About Me -->
+    <section id="about" class="about section reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content glass-card">
+                <p>
+                    Self-motivated B.Tech student seeking an entry-level / internship opportunity where I can apply my
+                    programming and analytical skills, gain hands-on industry exposure, and contribute to organizational
+                    growth.
+                </p>
+                <div class="about-details">
+                    <div class="detail-box">
+                        <h4>Education</h4>
+                        <p><strong>Bachelor’s Degree :</strong> B.Tech</p>
+                        <p><strong>University Name :</strong> GH Raisoni International Skill Tech University Pune</p>
+                        <p><strong>Year of Passing :</strong> 2028</p>
+                    </div>
+                    <div class="detail-box">
+                        <h4>Contact Details</h4>
+                        <p><strong>Location :</strong> Wagholi Pune, Maharashtra</p>
+                        <p><strong>Phone :</strong> +91 99758 01180</p>
+                        <p><strong>Email :</strong> nikhilbgade007@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="skills section reveal">
+        <div class="container">
+            <h2 class="section-title">Technical & Soft Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming Skills -->
+                <div class="skill-category glass-card">
+                    <h3>Programming</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML & CSS</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analysis Skills -->
+                <div class="skill-category glass-card">
+                    <h3>Data Analysis</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Pandas</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>NumPy</span>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category glass-card">
+                    <h3>Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li><span class="neon-bullet"></span> Communication</li>
+                        <li><span class="neon-bullet"></span> Problem Solving</li>
+                        <li><span class="neon-bullet"></span> Web Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section id="projects" class="projects section reveal">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Drone Development</h3>
+                        <p class="project-desc">Building and programming custom drones, focusing on flight control
+                            systems, autonomous navigation, and hardware integration.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Hardware</span>
+                            <span class="tag">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Course + Assignment Management System (Mini LMS)</h3>
+                        <p class="project-desc">A Mini Learning Management System to manage courses, track student
+                            assignments, and streamline the educational workflow efficiently.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML, CSS, JS</span>
+                            <span class="tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact / Feedback Form -->
+    <section id="contact" class="contact section reveal">
+        <div class="container">
+            <h2 class="section-title">Leave Feedback</h2>
+            <div class="contact-wrapper">
+                <div class="form-container glass-card">
+                    <form id="feedbackForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <span class="error-msg" id="nameError">Name must not be empty</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <span class="error-msg" id="emailError">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Your Feedback" required></textarea>
+                            <span class="error-msg" id="messageError">Message is required</span>
+                        </div>
+                        <button type="submit" class="btn primary-btn submit-btn">Submit Feedback</button>
+                    </form>
+                    <div id="successMessage" class="success-message hidden">
+                        ✅ Thank you! Your feedback has been saved.
+                    </div>
+                </div>
+
+                <!-- Feedback Display Section -->
+                <div class="feedback-display glass-card">
+                    <h3>Recent Feedback</h3>
+                    <div id="feedbackList" class="feedback-list">
+                        <!-- Dynamically populated via JS -->
+                        <p class="no-feedback">No feedback yet. Be the first!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/NikhilGade07" target="_blank" class="social-icon" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-github">
+                    <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nikhilgade07" target="_blank" class="social-icon"
+                aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+            <a href="https://instagram.com/nikhilgade07" target="_blank" class="social-icon" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+            <a href="https://x.com/nikhilgade07" target="_blank" class="social-icon" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-twitter">
+                    <path
+                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <p>&copy; 2026 Nikhil Gade. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
